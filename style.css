@@ -100,7 +100,10 @@ a:visited {
 }
 
 .companies-logos img{
+  display: flex;
   margin: 50px auto 50px auto;
+  justify-content: center;
+
 }
 
 .title-branding{
@@ -344,13 +347,13 @@ a:visited {
   }
 
   .companies-logos {
-    margin: 0 auto;
+    justify-content: center;
   }
 
   .companies-logos img{
     height: 25px;
-    margin: 20px 7px;
-    object-fit: cover;
+    margin: 20px auto;
+    padding: 0 10px;
   }
 
   .title-branding h1{
@@ -391,7 +394,6 @@ a:visited {
   .custom-img img{
     width: 350px;
   }
-
 
   .contact {
     grid-template-columns: 1fr;
